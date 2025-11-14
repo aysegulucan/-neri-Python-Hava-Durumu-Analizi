@@ -1,0 +1,49 @@
+============================================================
+--- HAVA DURUMU VERİ ANALİZİ RAPORU (MÜNİH) ---
+============================================================
+Rapor Dosyası: hava_durumu_raporu.txt
+
+--- AŞAMA 1: VERİ YÜKLEME VE HAZIRLIK ---
+Başarılı: 'munich.csv' yüklendi.
+Başarılı: Sütun adları temizlendi (örn: 'time', 'precipitation_mm').
+Başarılı: 'time' sütunu tarih formatına çevrildi.
+Başarılı: Eksik veriler (19 satır) temizlendi.
+Analiz edilecek 134 geçerli veri satırı kaldı.
+
+--- AŞAMA 2: TEMEL ANALİZ (İKLİMSEL TRENDLER) ---
+Analiz Periyodu: 2024-03-20 ile 2024-07-31 arası.
+
+Toplam Değerler:
+  Toplam Yağış: 526.10 mm
+  Toplam Kar Yağışı: 2.49 cm
+
+Aykırı Olaylar (En Yoğun Gün):
+  En yağışlı gün: 2024-06-01
+  Yağış miktarı: 78.4 mm
+
+Aylık Toplam Yağış (Mevsimsel Kalıp):
+month
+3     29.9
+4     72.1
+5    180.6
+6    157.0
+7     86.5
+Name: precipitation_mm
+(Detaylar için 'monthly_precipitation_pattern.png' grafiğine bakınız.)
+
+--- AŞAMA 3: GÖRSELLEŞTİRME ---
+Grafik oluşturuldu: 'daily_precipitation_trend.png'
+Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+Grafik oluşturuldu: 'monthly_precipitation_pattern.png'
+
+--- AŞAMA 4: YÖNETİCİ ÖZETİ ---
+Analiz, 2024-03-20 ile 2024-07-31 arasındaki 134 günlük Münih hava durumu verisini kapsamaktadır.
+Bu dönemde toplam 526.10 mm yağış kaydedilmiştir.
+En yoğun yağış 2024-06-01 tarihinde 78.4 mm olarak ölçülmüştür.
+Aylık analiz, yağışların özellikle belirli aylarda yoğunlaştığını göstermektedir (Bkz: 'monthly_precipitation_pattern.png').
+
+
+============================================================
+--- HAVA DURUMU ANALİZ RAPORU TAMAMLANDI ---
+============================================================
