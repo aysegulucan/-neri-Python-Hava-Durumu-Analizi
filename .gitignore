@@ -1,0 +1,16 @@
+İşte .gitignore dosyasının içine doğrudan kopyalayıp yapıştıracağın içerik bu, Thinner:
+
+# Python'a özel dosyalar
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Sanal ortam klasörü (kullanıyorsan)
+venv/
+env/
+.venv/
+
+# İşletim sistemi dosyaları
+.DS_Store
+Thumbs.db
